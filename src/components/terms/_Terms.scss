@@ -1,0 +1,46 @@
+.short__hero {
+  background-image: url("/images/short-hero.png");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  min-height: 45vh;
+
+  background-size: cover;
+  width: 100vw;
+  .heading {
+    text-align: left;
+    h1 {
+      font-family: $regular-baloo;
+      padding-top: 7vh;
+      color: white;
+      font-size: 3.2vw;
+
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.terms__content {
+  margin: 5vh 0;
+  text-align: left;
+
+  p {
+    line-height: 2;
+  }
+
+  .section {
+    padding-bottom: 4vh;
+
+    .heading {
+      h3 {
+        font-family: $bold-sans;
+        padding-bottom: 6px;
+      }
+    }
+    .content {
+      line-height: 2;
+    }
+  }
+}

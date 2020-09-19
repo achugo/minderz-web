@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Baloo Regular";
+  src: url("../fonts/Baloo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open sans regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open sans bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "open sans semibold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+$regular-baloo: "Baloo Regular";
+$bold-sans: "open sans bold";
+$semibold-sans: "open sans semibold";
+$regular-sans: "open sans regular";

@@ -1,0 +1,62 @@
+.hero__wrapper {
+  background-image: url("/images/hero-banner.png");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  height: 100vh;
+  background-size: cover;
+
+  .wrapper {
+    margin-top: 15vh;
+    text-align: left;
+    .caption__header {
+      h1 {
+        font-family: $regular-baloo;
+        color: white;
+        font-size: 4.5vw;
+
+        @media screen and (max-width: 768px) {
+          font-size: 10vw;
+          text-align: center;
+        }
+      }
+    }
+    .caption__content {
+      margin-top: 4vh;
+      font-family: $semibold-sans;
+      color: white;
+      line-height: 1.45;
+      font-size: 1.2vw;
+
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+        margin-top: 4vh;
+      }
+    }
+  }
+
+  .wrap__phone {
+    position: relative;
+    img {
+      right: 5vw;
+      top: 3vw;
+      position: relative;
+      max-width: 120%;
+
+      @media screen and (max-width: 768px) {
+        max-width: 100%;
+        top: -4vh;
+      }
+    }
+  }
+  .download-links {
+    margin-top: 3vh;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+    img {
+      max-width: 22vh;
+      padding-right: 2vh;
+    }
+  }
+}

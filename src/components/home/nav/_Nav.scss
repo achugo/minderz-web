@@ -1,0 +1,32 @@
+.nav__wrapper {
+  padding-top: 4vh;
+  @media screen and (max-width: 768px) {
+    padding-top: 3vh;
+  }
+  .nav__links {
+    font-family: $bold-sans;
+    color: white;
+    font-size: 1vw;
+    margin-top: 0.1vh;
+
+    a {
+      font-family: $bold-sans;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  button {
+    background-color: $minderz-pink;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: $bold-sans;
+    padding: 0.6vw 0.9vw;
+    border-radius: 1vw;
+    margin-top: -0.1vh;
+  }
+  .clear__padding {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}

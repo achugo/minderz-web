@@ -1,0 +1,201 @@
+.features__wrapper {
+  background-image: url("/images/icon-bg.svg");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  height: fit-content;
+  background-size: cover;
+  padding-top: 5vh;
+  margin: 0px auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    background-image: url("/images/mobile-icon.svg");
+  }
+  .heading {
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+    h1 {
+      font-size: 3vw;
+      font-family: $regular-baloo;
+      color: $minderz-pink;
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+  }
+  .features__content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin: 0px auto;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .feature__phone {
+    img {
+      max-width: 110%;
+      position: relative;
+      right: 10vw;
+
+      @media screen and (max-width: 768px) {
+        max-width: 100%;
+        position: relative;
+        right: 0vw;
+      }
+    }
+  }
+  .data {
+    h3 {
+      font-family: $regular-baloo;
+      color: $minderz-blue;
+      margin-bottom: 2px;
+    }
+    .caption {
+      font-family: $regular-sans;
+      line-height: 1.6;
+      font-size: 0.9vw;
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.furr__caption {
+  background-image: url("/images/icon-bg.svg");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  height: fit-content;
+  background-size: cover;
+  padding-top: 5vh;
+  .content {
+    padding-left: 15vw;
+    padding-top: 20vh;
+    @media screen and (max-width: 768px) {
+      padding-left: 0;
+      padding-top: 20px;
+      background-image: url("/images/mobile-icon.svg");
+    }
+
+    h1 {
+      font-family: $regular-baloo;
+      color: $minderz-pink;
+      font-size: 2em;
+      @media screen and (min-width: 768px) {
+        font-size: 2.5vw !important;
+      }
+    }
+    .caption {
+      font-family: $regular-sans;
+      line-height: 1.7;
+    }
+  }
+
+  .curly__cat {
+    img {
+      max-width: 100%;
+      position: relative;
+      left: 20px;
+
+      @media screen and (max-width: 768px) {
+        left: -15px;
+        max-width: 100vw;
+      }
+    }
+    max-height: 30vh;
+  }
+}
+
+.pet__network {
+  background-image: url("/images/bg-phones.svg");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  min-height: fit-content;
+  background-size: cover;
+  margin-top: 25vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  @media screen and (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url("/images/mobile-icon.svg");
+  }
+  .heading {
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+    h1 {
+      font-size: 3vw;
+      font-family: $regular-baloo;
+      color: $minderz-pink;
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+  }
+  .app__screens {
+    img {
+      max-width: 100%;
+    }
+    .down {
+      margin-top: 15vh;
+    }
+    .up {
+      margin-top: 0vh;
+    }
+  }
+}
+
+.vet__coming__soon {
+  background-image: url("/images/icon-bg.svg");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  height: fit-content;
+  background-size: cover;
+  padding-top: 10vh;
+  margin-top: 0px auto;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url("/images/mobile-icon.svg");
+  }
+
+  .coming__soon {
+    padding-top: 5vw;
+    .caption {
+      width: 70%;
+      font-family: $regular-sans;
+      line-height: 1.7;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    .heading {
+      margin-top: 12vh;
+      margin-bottom: 2vh;
+      h2 {
+        font-size: 2.7vw;
+        font-family: $regular-baloo;
+        color: $minderz-pink;
+        @media screen and (max-width: 768px) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

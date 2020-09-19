@@ -1,0 +1,35 @@
+.container__ {
+  padding-left: 8vw;
+  padding-right: 8vw;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.left__align {
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.left___align {
+  text-align: left;
+}
+
+.hide-desktop {
+  display: block;
+  @media screen and (min-width: 769px) {
+    display: none !important;
+  }
+}
+
+.hide-mobile {
+  display: block;
+  @media screen and (max-width: 769px) {
+    display: none !important;
+  }
+}

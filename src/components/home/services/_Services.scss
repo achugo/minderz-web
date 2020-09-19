@@ -1,0 +1,315 @@
+.services__wrapper {
+  padding-top: 5vh;
+  background-image: url("/images/icon-bg.svg");
+  background-repeat: no-repeat;
+  //   max-height: 90vh;
+  //   min-height: 90vh;
+  height: fit-content;
+  background-size: cover;
+  .heading {
+    margin-top: 10vh;
+    h1 {
+      font-size: 3vw;
+      font-family: $regular-baloo;
+      color: $minderz-pink;
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+  }
+  .services {
+    margin: 0 auto;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .grid {
+      .column {
+        padding: 2rem !important;
+      }
+    }
+
+    .wrap__image {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      background: url("/images/boarding.png"),
+        linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 0.88) 0%,
+          rgba(144, 144, 148, 0.93) 54%,
+          rgba(40, 36, 99, 0) 100%
+        );
+      background-blend-mode: overlay;
+      background-size: cover;
+      //   max-height: 90vh;
+      //   min-height: 90vh;
+      min-height: 250px;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        // opacity: 0.9;
+      }
+      .caption_bold {
+        font-family: $regular-baloo;
+        font-weight: bold;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1.5rem;
+      }
+
+      .caption_normal {
+        font-family: $regular-baloo;
+        font-weight: normal;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1rem;
+        width: 70%;
+      }
+    }
+    .wrap__image1 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      background: url("/images/walking.png"),
+        linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 0.88) 0%,
+          rgba(144, 144, 148, 0.93) 54%,
+          rgba(40, 36, 99, 0) 100%
+        );
+      background-blend-mode: overlay;
+      background-size: cover;
+      //   max-height: 90vh;
+      //   min-height: 90vh;
+      min-height: 250px;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        // opacity: 0.9;
+      }
+      .caption_bold {
+        font-family: $regular-baloo;
+        font-weight: bold;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1.5rem;
+      }
+
+      .caption_normal {
+        font-family: $regular-baloo;
+        font-weight: normal;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1rem;
+        width: 70%;
+      }
+    }
+    .wrap__image2 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      background: url("/images/visits.png"),
+        linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 0.88) 0%,
+          rgba(144, 144, 148, 0.93) 54%,
+          rgba(40, 36, 99, 0) 100%
+        );
+      background-blend-mode: overlay;
+      background-size: cover;
+      //   max-height: 90vh;
+      //   min-height: 90vh;
+      min-height: 250px;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        // opacity: 0.9;
+      }
+      .caption_bold {
+        font-family: $regular-baloo;
+        font-weight: bold;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1.5rem;
+      }
+
+      .caption_normal {
+        font-family: $regular-baloo;
+        font-weight: normal;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1rem;
+        width: 70%;
+      }
+    }
+    .wrap__image3 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      background: url("/images/sitting.png"),
+        linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 0.88) 0%,
+          rgba(144, 144, 148, 0.93) 54%,
+          rgba(40, 36, 99, 0) 100%
+        );
+      background-blend-mode: overlay;
+      background-size: cover;
+      //   max-height: 90vh;
+      //   min-height: 90vh;
+      min-height: 250px;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        // opacity: 0.9;
+      }
+      .caption_bold {
+        font-family: $regular-baloo;
+        font-weight: bold;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1.5rem;
+      }
+
+      .caption_normal {
+        font-family: $regular-baloo;
+        font-weight: normal;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1rem;
+        width: 70%;
+      }
+    }
+    .wrap__image4 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      background: url("/images/training.png"),
+        linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 0.88) 0%,
+          rgba(144, 144, 148, 0.93) 54%,
+          rgba(40, 36, 99, 0) 100%
+        );
+      background-blend-mode: overlay;
+      background-size: cover;
+      //   max-height: 90vh;
+      //   min-height: 90vh;
+      min-height: 250px;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        // opacity: 0.9;
+      }
+      .caption_bold {
+        font-family: $regular-baloo;
+        font-weight: bold;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1.5rem;
+      }
+
+      .caption_normal {
+        font-family: $regular-baloo;
+        font-weight: normal;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1rem;
+        width: 70%;
+      }
+    }
+    .wrap__image5 {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      background: url("/images/grooming.png"),
+        linear-gradient(
+          360deg,
+          rgba(255, 255, 255, 0.88) 0%,
+          rgba(144, 144, 148, 0.93) 54%,
+          rgba(40, 36, 99, 0) 100%
+        );
+      background-blend-mode: overlay;
+      background-size: cover;
+      //   max-height: 90vh;
+      //   min-height: 90vh;
+      min-height: 250px;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        // opacity: 0.9;
+      }
+      .caption_bold {
+        font-family: $regular-baloo;
+        font-weight: bold;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1.5rem;
+      }
+
+      .caption_normal {
+        font-family: $regular-baloo;
+        font-weight: normal;
+        color: $minderz-blue;
+        padding-bottom: 2em;
+        font-size: 1rem;
+        width: 70%;
+      }
+    }
+  }
+  .promises {
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin: 0px auto;
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .ui {
+      .column {
+        margin-top: 6vh;
+        img {
+          max-width: 7vh;
+        }
+
+        h2 {
+          font-family: $regular-baloo;
+        }
+      }
+    }
+  }
+}
