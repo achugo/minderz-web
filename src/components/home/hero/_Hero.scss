@@ -7,6 +7,10 @@
 
   background-size: contain;
 
+  @media screen and (max-width: 768px) {
+    background-size: cover;
+  }
+
   .wrapper {
     margin-top: 15vh;
     text-align: left;

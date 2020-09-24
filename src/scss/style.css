@@ -110,6 +110,12 @@
   background-size: contain;
 }
 
+@media screen and (max-width: 768px) {
+  .hero__wrapper {
+    background-size: cover;
+  }
+}
+
 .hero__wrapper .wrapper {
   margin-top: 15vh;
   text-align: left;
@@ -986,7 +992,7 @@
 }
 
 .pet__network {
-  margin-top: 25vh;
+  margin-top: 35vh;
   padding-left: 10vw;
   padding-right: 10vw;
 }
@@ -1093,6 +1099,15 @@
 
 .vet__coming__soon img {
   max-width: 100%;
+}
+
+.play-btn {
+  position: absolute !important;
+  left: 50% !important;
+  top: 100%;
+  z-index: 999;
+  cursor: pointer;
+  max-width: 100px !important;
 }
 
 .footer__wrapper {
