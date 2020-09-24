@@ -309,7 +309,7 @@
     //   max-height: 90vh;
     //   min-height: 90vh;
 
-    height: calc(fit-content + 20vh);
+    height: fit-content;
     background-size: cover;
     @media screen and (max-width: 768px) {
       width: 100%;

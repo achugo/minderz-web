@@ -505,9 +505,9 @@
   margin: 0px auto;
   background-image: url("/images/icon-bg.svg");
   background-repeat: no-repeat;
-  height: calc(-webkit-fit-content + 20vh);
-  height: calc(-moz-fit-content + 20vh);
-  height: calc(fit-content + 20vh);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-size: cover;
 }
 
