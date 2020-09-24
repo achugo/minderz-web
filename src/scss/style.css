@@ -118,7 +118,7 @@
 .hero__wrapper .wrapper .caption__header h1 {
   font-family: "Baloo Regular";
   color: white;
-  font-size: 4.5vw;
+  font-size: 4.3vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -1185,7 +1185,7 @@
 
 .footer__wrapper .footer__lower .newsletter__wrapper {
   margin: 0px auto;
-  width: 40%;
+  width: 50%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1259,7 +1259,7 @@
 
 .footer__wrapper .footer__lower .policies {
   padding: 3vh 0;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 
