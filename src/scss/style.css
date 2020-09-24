@@ -106,8 +106,8 @@
 .hero__wrapper {
   background-image: url("/images/hero-banner.png");
   background-repeat: no-repeat;
-  height: 100vh;
-  background-size: cover;
+  height: 100%;
+  background-size: contain;
 }
 
 .hero__wrapper .wrapper {
@@ -149,7 +149,7 @@
 
 .hero__wrapper .wrap__phone img {
   right: 5vw;
-  top: 3vw;
+  top: 6vw;
   position: relative;
   max-width: 120%;
 }
@@ -176,8 +176,7 @@
   padding-right: 2vh;
 }
 
-.services__wrapper {
-  padding-top: 5vh;
+.services__wrapper .services___ {
   background-image: url("/images/icon-bg.svg");
   background-repeat: no-repeat;
   height: -webkit-fit-content;
@@ -186,42 +185,50 @@
   background-size: cover;
 }
 
-.services__wrapper .heading {
-  margin-top: 10vh;
+@media screen and (max-width: 768px) {
+  .services__wrapper .services___ {
+    width: 100%;
+    background-image: url("/images/icon-bg.svg");
+  }
 }
 
-.services__wrapper .heading h1 {
+.services__wrapper .services___ .heading {
+  position: relative;
+  top: 10vh;
+}
+
+.services__wrapper .services___ .heading h1 {
   font-size: 3vw;
   font-family: "Baloo Regular";
   color: #ff978f;
 }
 
 @media screen and (max-width: 768px) {
-  .services__wrapper .heading h1 {
+  .services__wrapper .services___ .heading h1 {
     font-size: 30px;
   }
 }
 
-.services__wrapper .services {
+.services__wrapper .services___ .services {
   margin: 0 auto;
-  padding-top: 10vh;
+  padding-top: 15vh;
   padding-left: 10vw;
   padding-right: 10vw;
 }
 
 @media screen and (max-width: 768px) {
-  .services__wrapper .services {
+  .services__wrapper .services___ .services {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-.services__wrapper .services .grid .column {
+.services__wrapper .services___ .services .grid .column {
   padding: 2rem !important;
 }
 
-.services__wrapper .services .wrap__image {
+.services__wrapper .services___ .services .wrap__image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,11 +252,11 @@
   cursor: pointer;
 }
 
-.services__wrapper .services .wrap__image:hover {
+.services__wrapper .services___ .services .wrap__image:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services__wrapper .services .wrap__image .caption_bold {
+.services__wrapper .services___ .services .wrap__image .caption_bold {
   font-family: "Baloo Regular";
   font-weight: bold;
   color: #008cff;
@@ -257,7 +264,7 @@
   font-size: 1.5rem;
 }
 
-.services__wrapper .services .wrap__image .caption_normal {
+.services__wrapper .services___ .services .wrap__image .caption_normal {
   font-family: "Baloo Regular";
   font-weight: normal;
   color: #008cff;
@@ -266,7 +273,7 @@
   width: 70%;
 }
 
-.services__wrapper .services .wrap__image1 {
+.services__wrapper .services___ .services .wrap__image1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,11 +297,11 @@
   cursor: pointer;
 }
 
-.services__wrapper .services .wrap__image1:hover {
+.services__wrapper .services___ .services .wrap__image1:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services__wrapper .services .wrap__image1 .caption_bold {
+.services__wrapper .services___ .services .wrap__image1 .caption_bold {
   font-family: "Baloo Regular";
   font-weight: bold;
   color: #008cff;
@@ -302,7 +309,7 @@
   font-size: 1.5rem;
 }
 
-.services__wrapper .services .wrap__image1 .caption_normal {
+.services__wrapper .services___ .services .wrap__image1 .caption_normal {
   font-family: "Baloo Regular";
   font-weight: normal;
   color: #008cff;
@@ -311,7 +318,7 @@
   width: 70%;
 }
 
-.services__wrapper .services .wrap__image2 {
+.services__wrapper .services___ .services .wrap__image2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,11 +342,11 @@
   cursor: pointer;
 }
 
-.services__wrapper .services .wrap__image2:hover {
+.services__wrapper .services___ .services .wrap__image2:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services__wrapper .services .wrap__image2 .caption_bold {
+.services__wrapper .services___ .services .wrap__image2 .caption_bold {
   font-family: "Baloo Regular";
   font-weight: bold;
   color: #008cff;
@@ -347,7 +354,7 @@
   font-size: 1.5rem;
 }
 
-.services__wrapper .services .wrap__image2 .caption_normal {
+.services__wrapper .services___ .services .wrap__image2 .caption_normal {
   font-family: "Baloo Regular";
   font-weight: normal;
   color: #008cff;
@@ -356,7 +363,7 @@
   width: 70%;
 }
 
-.services__wrapper .services .wrap__image3 {
+.services__wrapper .services___ .services .wrap__image3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,11 +387,11 @@
   cursor: pointer;
 }
 
-.services__wrapper .services .wrap__image3:hover {
+.services__wrapper .services___ .services .wrap__image3:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services__wrapper .services .wrap__image3 .caption_bold {
+.services__wrapper .services___ .services .wrap__image3 .caption_bold {
   font-family: "Baloo Regular";
   font-weight: bold;
   color: #008cff;
@@ -392,7 +399,7 @@
   font-size: 1.5rem;
 }
 
-.services__wrapper .services .wrap__image3 .caption_normal {
+.services__wrapper .services___ .services .wrap__image3 .caption_normal {
   font-family: "Baloo Regular";
   font-weight: normal;
   color: #008cff;
@@ -401,7 +408,7 @@
   width: 70%;
 }
 
-.services__wrapper .services .wrap__image4 {
+.services__wrapper .services___ .services .wrap__image4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,11 +432,11 @@
   cursor: pointer;
 }
 
-.services__wrapper .services .wrap__image4:hover {
+.services__wrapper .services___ .services .wrap__image4:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services__wrapper .services .wrap__image4 .caption_bold {
+.services__wrapper .services___ .services .wrap__image4 .caption_bold {
   font-family: "Baloo Regular";
   font-weight: bold;
   color: #008cff;
@@ -437,7 +444,7 @@
   font-size: 1.5rem;
 }
 
-.services__wrapper .services .wrap__image4 .caption_normal {
+.services__wrapper .services___ .services .wrap__image4 .caption_normal {
   font-family: "Baloo Regular";
   font-weight: normal;
   color: #008cff;
@@ -446,7 +453,7 @@
   width: 70%;
 }
 
-.services__wrapper .services .wrap__image5 {
+.services__wrapper .services___ .services .wrap__image5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,11 +477,11 @@
   cursor: pointer;
 }
 
-.services__wrapper .services .wrap__image5:hover {
+.services__wrapper .services___ .services .wrap__image5:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services__wrapper .services .wrap__image5 .caption_bold {
+.services__wrapper .services___ .services .wrap__image5 .caption_bold {
   font-family: "Baloo Regular";
   font-weight: bold;
   color: #008cff;
@@ -482,7 +489,7 @@
   font-size: 1.5rem;
 }
 
-.services__wrapper .services .wrap__image5 .caption_normal {
+.services__wrapper .services___ .services .wrap__image5 .caption_normal {
   font-family: "Baloo Regular";
   font-weight: normal;
   color: #008cff;
@@ -496,6 +503,19 @@
   padding-left: 10vw;
   padding-right: 10vw;
   margin: 0px auto;
+  background-image: url("/images/icon-bg.svg");
+  background-repeat: no-repeat;
+  height: calc(-webkit-fit-content + 20vh);
+  height: calc(-moz-fit-content + 20vh);
+  height: calc(fit-content + 20vh);
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .services__wrapper .promises {
+    width: 100%;
+    background-image: url("/images/icon-bg.svg");
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -504,6 +524,312 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.services__wrapper .promises .heading {
+  position: relative;
+  margin-top: 5vh;
+}
+
+.services__wrapper .promises .heading h1 {
+  font-size: 3vw;
+  font-family: "Baloo Regular";
+  color: #ff978f;
+}
+
+@media screen and (max-width: 768px) {
+  .services__wrapper .promises .heading h1 {
+    font-size: 30px;
+  }
+}
+
+.services__wrapper .promises .services {
+  margin: 0 auto;
+  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+  .services__wrapper .promises .services {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.services__wrapper .promises .services .grid .column {
+  padding: 2rem !important;
+}
+
+.services__wrapper .promises .services .wrap__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/boarding.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), color-stop(54%, rgba(144, 144, 148, 0.93)), to(rgba(40, 36, 99, 0)));
+  background: url("/images/boarding.png"), linear-gradient(360deg, rgba(255, 255, 255, 0.88) 0%, rgba(144, 144, 148, 0.93) 54%, rgba(40, 36, 99, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.services__wrapper .promises .services .wrap__image:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.services__wrapper .promises .services .wrap__image .caption_bold {
+  font-family: "Baloo Regular";
+  font-weight: bold;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.services__wrapper .promises .services .wrap__image .caption_normal {
+  font-family: "Baloo Regular";
+  font-weight: normal;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.services__wrapper .promises .services .wrap__image1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/walking.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), color-stop(54%, rgba(144, 144, 148, 0.93)), to(rgba(40, 36, 99, 0)));
+  background: url("/images/walking.png"), linear-gradient(360deg, rgba(255, 255, 255, 0.88) 0%, rgba(144, 144, 148, 0.93) 54%, rgba(40, 36, 99, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.services__wrapper .promises .services .wrap__image1:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.services__wrapper .promises .services .wrap__image1 .caption_bold {
+  font-family: "Baloo Regular";
+  font-weight: bold;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.services__wrapper .promises .services .wrap__image1 .caption_normal {
+  font-family: "Baloo Regular";
+  font-weight: normal;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.services__wrapper .promises .services .wrap__image2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/visits.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), color-stop(54%, rgba(144, 144, 148, 0.93)), to(rgba(40, 36, 99, 0)));
+  background: url("/images/visits.png"), linear-gradient(360deg, rgba(255, 255, 255, 0.88) 0%, rgba(144, 144, 148, 0.93) 54%, rgba(40, 36, 99, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.services__wrapper .promises .services .wrap__image2:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.services__wrapper .promises .services .wrap__image2 .caption_bold {
+  font-family: "Baloo Regular";
+  font-weight: bold;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.services__wrapper .promises .services .wrap__image2 .caption_normal {
+  font-family: "Baloo Regular";
+  font-weight: normal;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.services__wrapper .promises .services .wrap__image3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/sitting.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), color-stop(54%, rgba(144, 144, 148, 0.93)), to(rgba(40, 36, 99, 0)));
+  background: url("/images/sitting.png"), linear-gradient(360deg, rgba(255, 255, 255, 0.88) 0%, rgba(144, 144, 148, 0.93) 54%, rgba(40, 36, 99, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.services__wrapper .promises .services .wrap__image3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.services__wrapper .promises .services .wrap__image3 .caption_bold {
+  font-family: "Baloo Regular";
+  font-weight: bold;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.services__wrapper .promises .services .wrap__image3 .caption_normal {
+  font-family: "Baloo Regular";
+  font-weight: normal;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.services__wrapper .promises .services .wrap__image4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/training.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), color-stop(54%, rgba(144, 144, 148, 0.93)), to(rgba(40, 36, 99, 0)));
+  background: url("/images/training.png"), linear-gradient(360deg, rgba(255, 255, 255, 0.88) 0%, rgba(144, 144, 148, 0.93) 54%, rgba(40, 36, 99, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.services__wrapper .promises .services .wrap__image4:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.services__wrapper .promises .services .wrap__image4 .caption_bold {
+  font-family: "Baloo Regular";
+  font-weight: bold;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.services__wrapper .promises .services .wrap__image4 .caption_normal {
+  font-family: "Baloo Regular";
+  font-weight: normal;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.services__wrapper .promises .services .wrap__image5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("/images/grooming.png"), -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.88)), color-stop(54%, rgba(144, 144, 148, 0.93)), to(rgba(40, 36, 99, 0)));
+  background: url("/images/grooming.png"), linear-gradient(360deg, rgba(255, 255, 255, 0.88) 0%, rgba(144, 144, 148, 0.93) 54%, rgba(40, 36, 99, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.services__wrapper .promises .services .wrap__image5:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.services__wrapper .promises .services .wrap__image5 .caption_bold {
+  font-family: "Baloo Regular";
+  font-weight: bold;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+.services__wrapper .promises .services .wrap__image5 .caption_normal {
+  font-family: "Baloo Regular";
+  font-weight: normal;
+  color: #008cff;
+  padding-bottom: 2em;
+  font-size: 1rem;
+  width: 70%;
 }
 
 .services__wrapper .promises .ui .column {
@@ -519,18 +845,21 @@
 }
 
 .features__wrapper {
+  padding-top: 5vh;
+  margin: 0px auto;
+}
+
+.features__wrapper .feature___ {
   background-image: url("/images/icon-bg.svg");
   background-repeat: no-repeat;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-size: cover;
-  padding-top: 5vh;
-  margin: 0px auto;
+  background-size: contain;
 }
 
 @media screen and (max-width: 768px) {
-  .features__wrapper {
+  .features__wrapper .feature___ {
     width: 100%;
     background-image: url("/images/mobile-icon.svg");
   }
@@ -646,7 +975,7 @@
 .furr__caption .curly__cat img {
   max-width: 100%;
   position: relative;
-  left: 20px;
+  left: 70px;
 }
 
 @media screen and (max-width: 768px) {
@@ -657,19 +986,22 @@
 }
 
 .pet__network {
+  margin-top: 25vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.pet__network .network___ {
   background-image: url("/images/bg-phones.svg");
   background-repeat: no-repeat;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
   background-size: cover;
-  margin-top: 25vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
 }
 
 @media screen and (max-width: 768px) {
-  .pet__network {
+  .pet__network .network___ {
     padding-left: 0;
     padding-right: 0;
     background-image: url("/images/mobile-icon.svg");
@@ -1128,13 +1460,13 @@
 }
 
 .wrap__accordion .Collapsible:nth-child(1) {
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .wrap__accordion .Collapsible:nth-last-child(1) {
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .wrap__accordion .Collapsible__contentInner {
@@ -1145,7 +1477,7 @@
 .wrap__accordion .Collapsible__contentInner p {
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.7;
 }
 
 .wrap__accordion .Collapsible__contentInner p:last-child {
@@ -1161,6 +1493,7 @@
   border: 1px solid white;
   font-family: "open sans bold";
   padding: 10px;
+  cursor: pointer;
   color: black;
 }
 
@@ -1168,7 +1501,7 @@
   font-family: "FontAwesome";
   content: "\f107";
   position: absolute;
-  color: #008cff;
+  color: grey;
   right: 10px;
   top: 10px;
   font-size: 30px;
@@ -1182,6 +1515,7 @@
 .wrap__accordion .Collapsible__trigger.is-open:after {
   -webkit-transform: rotateZ(180deg);
           transform: rotateZ(180deg);
+  color: #008cff;
 }
 
 .wrap__accordion .Collapsible__trigger.is-disabled {

@@ -1,17 +1,21 @@
 .features__wrapper {
-  background-image: url("/images/icon-bg.svg");
-  background-repeat: no-repeat;
-  //   max-height: 90vh;
-  //   min-height: 90vh;
-  height: fit-content;
-  background-size: cover;
   padding-top: 5vh;
   margin: 0px auto;
 
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    background-image: url("/images/mobile-icon.svg");
+  .feature___ {
+    background-image: url("/images/icon-bg.svg");
+    background-repeat: no-repeat;
+    //   max-height: 90vh;
+    //   min-height: 90vh;
+    height: fit-content;
+    background-size: contain;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      background-image: url("/images/mobile-icon.svg");
+    }
   }
+
   .heading {
     margin-top: 12vh;
     margin-bottom: 5vh;
@@ -101,7 +105,7 @@
     img {
       max-width: 100%;
       position: relative;
-      left: 20px;
+      left: 70px;
 
       @media screen and (max-width: 768px) {
         left: -15px;
@@ -113,19 +117,22 @@
 }
 
 .pet__network {
-  background-image: url("/images/bg-phones.svg");
-  background-repeat: no-repeat;
-  //   max-height: 90vh;
-  //   min-height: 90vh;
-  min-height: fit-content;
-  background-size: cover;
   margin-top: 25vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  @media screen and (max-width: 768px) {
-    padding-left: 0;
-    padding-right: 0;
-    background-image: url("/images/mobile-icon.svg");
+
+  .network___ {
+    background-image: url("/images/bg-phones.svg");
+    background-repeat: no-repeat;
+    //   max-height: 90vh;
+    //   min-height: 90vh;
+    min-height: fit-content;
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+      padding-left: 0;
+      padding-right: 0;
+      background-image: url("/images/mobile-icon.svg");
+    }
   }
   .heading {
     margin-top: 12vh;

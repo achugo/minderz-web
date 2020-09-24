@@ -3,8 +3,9 @@
   background-repeat: no-repeat;
   //   max-height: 90vh;
   //   min-height: 90vh;
-  height: 100vh;
-  background-size: cover;
+  height: 100%;
+
+  background-size: contain;
 
   .wrapper {
     margin-top: 15vh;
@@ -39,7 +40,7 @@
     position: relative;
     img {
       right: 5vw;
-      top: 3vw;
+      top: 6vw;
       position: relative;
       max-width: 120%;
 

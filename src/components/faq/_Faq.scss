@@ -120,12 +120,12 @@
     padding: 30px;
 
     &:nth-child(1) {
-      border-top-right-radius: 25px;
-      border-top-left-radius: 25px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
     }
     &:nth-last-child(1) {
-      border-bottom-right-radius: 25px;
-      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
     }
   }
 
@@ -137,7 +137,7 @@
   .Collapsible__contentInner p {
     margin-bottom: 10px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.7;
   }
   .Collapsible__contentInner p:last-child {
     margin-bottom: 0;
@@ -152,6 +152,7 @@
     border: 1px solid white;
     font-family: $bold-sans;
     padding: 10px;
+    cursor: pointer;
 
     color: black;
   }
@@ -159,7 +160,7 @@
     font-family: "FontAwesome";
     content: "\f107";
     position: absolute;
-    color: $minderz-blue;
+    color: grey;
     right: 10px;
     top: 10px;
     font-size: 30px;
@@ -168,6 +169,7 @@
   }
   .Collapsible__trigger.is-open:after {
     transform: rotateZ(180deg);
+    color: $minderz-blue;
   }
   .Collapsible__trigger.is-disabled {
     opacity: 0.5;
