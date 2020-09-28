@@ -81,6 +81,15 @@
   margin-top: 0.1vh;
 }
 
+.nav__wrapper .nav__links .column {
+  text-align: right !important;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  padding: 0.5vw 1.5vw !important;
+  float: right;
+}
+
 .nav__wrapper .nav__links a {
   font-family: "open sans bold";
   color: white;
@@ -96,6 +105,8 @@
   padding: 0.6vw 0.9vw;
   border-radius: 1vw;
   margin-top: -0.1vh;
+  position: relative;
+  bottom: 5px;
 }
 
 .nav__wrapper .clear__padding {
@@ -139,7 +150,7 @@
   font-family: "open sans semibold";
   color: white;
   line-height: 1.45;
-  font-size: 1.2vw;
+  font-size: 1.12vw;
 }
 
 @media screen and (max-width: 768px) {

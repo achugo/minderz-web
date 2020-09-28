@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="policies hide-mobile">
             <div className="ui three column grid">
               <div className="column">
-                <Link to="/">
+                <Link to="/privacy">
                   {" "}
                   <span>Privacy Policy</span>
                 </Link>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="column">
-                <Link to="/">
+                <Link to="/license">
                   <span>License Agreement</span>
                 </Link>
               </div>

@@ -8,6 +8,8 @@ import Faq from "./components/faq/Faq";
 import history from "./history";
 import "./scss/style.css";
 import Terms from "./components/terms/Terms";
+import License from "./components/privacy/License";
+import Privacy from "./components/privacy/License";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/faq" component={Faq} />
           <Route path="/terms" component={Terms} />
+          <Route path="/license" component={License} />
+            <Route path="/privacy" component={Privacy} />
 
           {/* <Route render={() => <NotFound />} /> */}
         </Switch>

@@ -8,6 +8,12 @@
     color: white;
     font-size: 1vw;
     margin-top: 0.1vh;
+    .column {
+      text-align: right !important;
+      width: fit-content !important;
+      padding: 0.5vw 1.5vw !important;
+      float: right;
+    }
 
     a {
       font-family: $bold-sans;
@@ -24,6 +30,8 @@
     padding: 0.6vw 0.9vw;
     border-radius: 1vw;
     margin-top: -0.1vh;
+    position: relative;
+    bottom: 5px;
   }
   .clear__padding {
     padding-right: 0px !important;
