@@ -127,7 +127,7 @@ const Features = () => {
           </div>
           <div className="eight wide column curly__cat hide-mobile">
             <img src="images/curly-cat.png" alt="cat image" />
-            <a href="https://minderz-web.herokuapp.com/" target="_blank">
+            <a href="https://youtu.be/D2Ltq-z9iiE" target="_blank">
               <img src="images/play-btn.svg" className="play-btn" alt="play" />
             </a>
           </div>

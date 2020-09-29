@@ -1310,6 +1310,12 @@
   color: #ffffff;
 }
 
+.sg-response {
+  display: block;
+  color: white;
+  margin-bottom: 30px;
+}
+
 .short__hero {
   background-image: url("/images/short-hero.png");
   background-repeat: no-repeat;

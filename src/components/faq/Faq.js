@@ -14,7 +14,7 @@ const Faq = () => {
         </div>
       </div>
       <div className="accordion__header">
-        <span>WE ANSWER YOUR QUESTIONS</span>
+        {/* <span>WE ANSWER YOUR QUESTIONS</span> */}
         <div className="heading">
           <h2>Frequently Asked Questions</h2>
         </div>

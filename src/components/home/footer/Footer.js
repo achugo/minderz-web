@@ -49,19 +49,41 @@ const Footer = () => {
               offers.
             </span>
           </div>
+
           <div className="newsletter__wrapper">
-            <div className="ui two column grid input">
-              <div className="twelve wide column left__align">
-                <input type="text" placeholder="Enter Your Email here" />
-              </div>
-              <div className="four wide column">
-                <button className="hide-mobile">Subscribe</button>
-                <img
-                  src="images/submit-img.svg"
-                  className="hide-desktop"
-                  alt="submit img"
-                />
-              </div>
+            <div
+              id="sendgrid-subscription-widget"
+              className="sendgrid-subscription-widget"
+            >
+              <form
+                id="sg-widget"
+                data-token="e2c37163dc95b4351b82ab699ae28b29"
+                onsubmit="return false;"
+              >
+                <div class="sg-response" id="sg-response"></div>
+                <div className="ui two column grid input">
+                  <div className="twelve wide column left__align">
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      placeholder="Enter Your Email here"
+                      required
+                    />
+                  </div>
+                  <div className="four wide column">
+                    <button className="hide-mobile" id="sg-submit-btn">
+                      Subscribe
+                    </button>
+                    <img
+                      src="images/submit-img.svg"
+                      className="hide-desktop"
+                      alt="submit img"
+                      id="sg-submit-btn"
+                    />
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
           <div className="policies hide-mobile">
