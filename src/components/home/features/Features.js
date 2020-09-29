@@ -118,9 +118,9 @@ const Features = () => {
                 furry babies
               </h1>
               <div className="caption">
-                Whether you need reminders for cat care, help manageing your
+                Whether you need reminders for cat care, help managing your
                 dog's vacination, or simply booking a reliable dog walker.
-                Minders has everything you need to take the best daily care of
+                Minderz has everything you need to take the best daily care of
                 your dog and cat in the most efficient way
               </div>
             </div>
