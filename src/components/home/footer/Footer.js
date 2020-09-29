@@ -113,16 +113,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="media__icons">
-            <a href="facebook.com">
+            <a href="https://web.facebook.com/Minderzsa/" target="_blank">
               <img src="images/facebook.svg" alt="facebook" />
             </a>
-            <a href="instagram.com">
+            <a href="https://www.instagram.com/minderzpets/" target="_blank">
               <img src="images/instagram.svg" alt="instagram" />
             </a>
-            <a href="linkedin.com">
+            <a href="https://www.linkedin.com/company/minderz/" target="_blank">
               <img src="images/linkedin.svg" alt="linkedin" />
             </a>
-            <a href="twitter.com">
+            <a href="https://twitter.com/minderzsa" target="_blank">
               <img src="images/twitter.svg" alt="twitter" />
             </a>
           </div>
