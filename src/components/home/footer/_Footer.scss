@@ -18,7 +18,7 @@
 
         @media screen and (max-width: 1025px) and (min-width: 768px) {
           position: relative;
-          left: 35vh;
+          margin-top: 0;
         }
       }
     }
@@ -28,7 +28,7 @@
         margin-top: 12vh;
         margin-bottom: 5vh;
         h3 {
-          font-size: 3vw;
+          font-size: 2.5vw;
           font-family: $regular-baloo;
           color: $minderz-pink;
           @media screen and (max-width: 768px) {
@@ -60,7 +60,7 @@
       margin-top: 12vh;
       margin-bottom: 5vh;
       h2 {
-        font-size: 3vw;
+        font-size: 2.5vw;
         font-family: $regular-baloo;
         color: white;
         @media screen and (max-width: 768px) {

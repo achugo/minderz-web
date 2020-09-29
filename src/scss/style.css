@@ -228,7 +228,7 @@
 }
 
 .services__wrapper .services___ .heading h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: #ff978f;
 }
@@ -562,7 +562,7 @@
 }
 
 .services__wrapper .promises .heading h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: #ff978f;
 }
@@ -875,8 +875,14 @@
 }
 
 .features__wrapper {
-  padding-top: 5vh;
+  padding-top: 12vh;
   margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .features__wrapper {
+    padding-top: 4vh;
+  }
 }
 
 .features__wrapper .feature___ {
@@ -901,7 +907,7 @@
 }
 
 .features__wrapper .heading h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: #ff978f;
 }
@@ -1050,7 +1056,7 @@
 }
 
 .pet__network .heading h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: #ff978f;
 }
@@ -1176,7 +1182,7 @@
 @media screen and (max-width: 1025px) and (min-width: 768px) {
   .footer__wrapper .footer__upper .footer__phone img {
     position: relative;
-    left: 35vh;
+    margin-top: 0;
   }
 }
 
@@ -1190,7 +1196,7 @@
 }
 
 .footer__wrapper .footer__upper .get__app .heading h3 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: #ff978f;
 }
@@ -1233,7 +1239,7 @@
 }
 
 .footer__wrapper .footer__lower .heading h2 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: white;
 }
@@ -1425,7 +1431,7 @@
 }
 
 .accordion__header .heading h2 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: "Baloo Regular";
   color: #008cff;
 }

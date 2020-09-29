@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container__">
         <div className="footer__upper">
           <div className="ui stackable grid">
-            <div className="eight wide column sixteen wide tablet left__align">
+            <div className="eight wide column left__align">
               <div className="get__app">
                 <div className="heading">
                   <h3>Get the app today</h3>
