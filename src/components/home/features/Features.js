@@ -119,7 +119,7 @@ const Features = () => {
               </h1>
               <div className="caption">
                 Whether you need reminders for cat care, help managing your
-                dog's vacination, or simply booking a reliable dog walker.
+                dog's vaccination, or simply booking a reliable dog walker.
                 Minderz has everything you need to take the best daily care of
                 your dog and cat in the most efficient way
               </div>
