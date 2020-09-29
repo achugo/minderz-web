@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const onFormSubmit = (e) => {
+    e.prevent.default();
+  };
   return (
     <div className="footer__wrapper" id="getstarted">
       <div className="container__">
         <div className="footer__upper">
           <div className="ui stackable grid">
-            <div className="eight wide column left__align">
+            <div className="eight wide column sixteen wide tablet left__align">
               <div className="get__app">
                 <div className="heading">
                   <h3>Get the app today</h3>
@@ -56,6 +59,7 @@ const Footer = () => {
               className="sendgrid-subscription-widget"
             >
               <form
+                onsubmit={onFormSubmit}
                 id="sg-widget"
                 data-token="e2c37163dc95b4351b82ab699ae28b29"
                 onsubmit="return false;"
@@ -75,12 +79,13 @@ const Footer = () => {
                     <button className="hide-mobile" id="sg-submit-btn">
                       Subscribe
                     </button>
-                    <img
-                      src="images/submit-img.svg"
-                      className="hide-desktop"
-                      alt="submit img"
-                      id="sg-submit-btn"
-                    />
+                    <button className="hide-desktop" id="sg-submit-btn">
+                      <img
+                        src="images/submit-img.svg"
+                        className="hide-desktop"
+                        alt="submit img"
+                      />
+                    </button>
                   </div>
                 </div>
               </form>

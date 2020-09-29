@@ -132,13 +132,19 @@
   text-align: left;
 }
 
+@media screen and (max-width: 1025px) and (min-width: 767px) {
+  .hero__wrapper .wrapper {
+    margin-top: 8vh;
+  }
+}
+
 .hero__wrapper .wrapper .caption__header h1 {
   font-family: "Baloo Regular";
   color: white;
   font-size: 4.3vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hero__wrapper .wrapper .caption__header h1 {
     font-size: 10vw;
     text-align: center;
@@ -191,6 +197,13 @@
 .hero__wrapper .download-links img {
   max-width: 19vh;
   padding-right: 2vh;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 767px) {
+  .hero__wrapper .download-links img {
+    max-width: 14vh;
+    padding-right: 2vh;
+  }
 }
 
 .services__wrapper .services___ {
@@ -995,6 +1008,12 @@
   left: 70px;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .furr__caption .curly__cat img {
+    top: 14vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .furr__caption .curly__cat img {
     left: -15px;
@@ -1079,6 +1098,14 @@
   padding-top: 5vw;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .vet__coming__soon .coming__soon {
+    padding-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
+}
+
 .vet__coming__soon .coming__soon .caption {
   width: 70%;
   font-family: "open sans regular";
@@ -1121,6 +1148,12 @@
   max-width: 100px !important;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .play-btn {
+    top: 23vh !important;
+  }
+}
+
 .footer__wrapper {
   margin-top: 30vh;
   background-image: url("/images/footer-bg.png");
@@ -1138,6 +1171,13 @@
   max-width: 100%;
   position: relative;
   margin-top: -30vh;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 768px) {
+  .footer__wrapper .footer__upper .footer__phone img {
+    position: relative;
+    left: 35vh;
+  }
 }
 
 .footer__wrapper .footer__upper .get__app {
@@ -1281,6 +1321,17 @@
   border: none;
   color: white;
   font-family: "open sans bold";
+}
+
+.footer__wrapper .footer__lower .newsletter__wrapper .input button.hide-desktop {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.footer__wrapper .footer__lower .newsletter__wrapper .input button.hide-desktop:focus {
+  outline: none;
+  border: none;
 }
 
 .footer__wrapper .footer__lower .policies {

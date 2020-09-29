@@ -107,6 +107,10 @@
       position: relative;
       left: 70px;
 
+      @media screen and (min-width: 769px) and (max-width: 1025px) {
+        top: 14vh;
+      }
+
       @media screen and (max-width: 768px) {
         left: -15px;
         max-width: 100vw;
@@ -179,6 +183,12 @@
 
   .coming__soon {
     padding-top: 5vw;
+
+    @media screen and (min-width: 769px) and (max-width: 1025px) {
+      padding-top: 0;
+      position: relative;
+      bottom: 50px;
+    }
     .caption {
       width: 70%;
       font-family: $regular-sans;
@@ -214,4 +224,8 @@
   z-index: 999;
   cursor: pointer;
   max-width: 100px !important;
+
+  @media screen and (min-width: 769px) and (max-width: 1025px) {
+    top: 23vh !important;
+  }
 }

@@ -12,12 +12,12 @@ const Features = () => {
           </div>
           <div className="features__content">
             <div className="ui stackable grid">
-              <div className="eight wide column left__align">
+              <div className="eight wide column  left__align">
                 <div className="feature__phone">
                   <img src="images/feature-phone.png" alt="feature" />
                 </div>
               </div>
-              <div className="eight wide column">
+              <div className="eight wide column ">
                 <div className="ui one column grid">
                   <div className="column">
                     <div className="ui two column stackable grid">
@@ -236,7 +236,7 @@ const Features = () => {
       </div>
       <div className="vet__coming__soon container__">
         <div className="ui stackable grid">
-          <div className="eight wide column">
+          <div className="eight wide column ">
             <img src="images/vet.png" alt="veterinarian" />
           </div>
           <div className="eight wide column left__align">

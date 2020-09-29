@@ -14,13 +14,17 @@
   .wrapper {
     margin-top: 15vh;
     text-align: left;
+
+    @media screen and (max-width: 1025px) and (min-width: 767px) {
+      margin-top: 8vh;
+    }
     .caption__header {
       h1 {
         font-family: $regular-baloo;
         color: white;
         font-size: 4.3vw;
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 767px) {
           font-size: 10vw;
           text-align: center;
         }
@@ -62,6 +66,10 @@
     img {
       max-width: 19vh;
       padding-right: 2vh;
+      @media screen and (max-width: 1025px) and (min-width: 767px) {
+        max-width: 14vh;
+        padding-right: 2vh;
+      }
     }
   }
 }
