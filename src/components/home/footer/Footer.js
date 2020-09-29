@@ -22,14 +22,14 @@ const Footer = () => {
                     href="https://play.google.com/store/apps/details?id=app.reftek.minderz"
                     target="_blank"
                   >
-                    <img src="images/blue-google.svg" alt="play store" />
+                    <img src="images/blue-ios.svg" alt="play store" />
                   </a>
 
                   <a
                     href="https://apps.apple.com/za/app/minderz/id1495784830"
                     target="_blank"
                   >
-                    <img src="images/blue-ios.svg" alt="play store" />
+                    <img src="images/blue-google.svg" alt="play store" />
                   </a>
                 </div>
               </div>

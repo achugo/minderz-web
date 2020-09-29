@@ -34,7 +34,11 @@ const Nav = () => {
               <div className="column">
                 <Link to="/faq">Faq</Link>
               </div>
-              <div className="column">Blog</div>
+              <div className="column">
+                <a href="https://blog.minderz.co" target="_blank">
+                  Blog
+                </a>
+              </div>
               <div className="column clear__padding">
                 <AnchorLink href="#getstarted">
                   <button>Get Started</button>
