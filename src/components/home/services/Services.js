@@ -71,7 +71,7 @@ const Services = () => {
                 {sitting && <div className="caption_bold">HOUSE-SITTING</div>}
                 {!sitting && (
                   <div className="caption_normal">
-                    This is great if you need overnight pet of house-sitting
+                    This is great if you need overnight pet or house-sitting
                     services
                   </div>
                 )}
