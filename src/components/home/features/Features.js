@@ -131,9 +131,9 @@ const Features = () => {
               <img src="images/play-btn.svg" className="play-btn" alt="play" />
             </a>
           </div>
-          <div className="eight wide column curly__cat hide-desktop">
+          {/* <div className="eight wide column curly__cat hide-desktop">
             <img src="images/doggy.png" alt="dog image" />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="hide-desktop">
