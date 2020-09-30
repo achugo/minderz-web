@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Footer = () => {
+  const [email_, setEmail] = useState("");
+  const [emailRes, setEmailRes] = useState("");
+
   const onFormSubmit = (e) => {
-    e.prevent.default();
+    e.preventDefault();
+    setEmailRes("Please wait while we confirm your subscription...");
+    axios({
+      method: "post",
+      url:
+        "https://fierce-shore-33740.herokuapp.com/Infomallapi.infomall.ng/api/emails/send",
+      data: {
+        subject: "Newsletter Subscriber",
+        message: `${email_} just subscribed to your newsletter`,
+        senderid: "812ae6b1-3845-4f61-8f49-3651a689c995",
+      },
+    })
+      .then((result) => {
+        console.log("Success:", result);
+        setEmailRes("You've sucessfully subscribed to our newsletter");
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
   return (
     <div className="footer__wrapper" id="getstarted">
       <div className="container__">
@@ -54,42 +80,32 @@ const Footer = () => {
           </div>
 
           <div className="newsletter__wrapper">
-            <div
-              id="sendgrid-subscription-widget"
-              className="sendgrid-subscription-widget"
-            >
-              <form
-                onsubmit={onFormSubmit}
-                id="sg-widget"
-                data-token="e2c37163dc95b4351b82ab699ae28b29"
-                onsubmit="return false;"
-              >
-                <div class="sg-response" id="sg-response"></div>
-                <div className="ui two column grid input">
-                  <div className="twelve wide column left__align">
-                    <input
-                      id="email"
-                      type="email"
-                      name="email"
-                      placeholder="Enter Your Email here"
-                      required
-                    />
-                  </div>
-                  <div className="four wide column">
-                    <button className="hide-mobile" id="sg-submit-btn">
-                      Subscribe
-                    </button>
-                    <button className="hide-desktop" id="sg-submit-btn">
-                      <img
-                        src="images/submit-img.svg"
-                        className="hide-desktop"
-                        alt="submit img"
-                      />
-                    </button>
-                  </div>
+            <form onSubmit={(e) => onFormSubmit(e)}>
+              <div class="sg-response">{emailRes}</div>
+              <div className="ui two column grid input">
+                <div className="twelve wide column left__align">
+                  <input
+                    id="email"
+                    type="email"
+                    onChange={handleEmailChange}
+                    placeholder="Enter Your Email here"
+                    required
+                  />
                 </div>
-              </form>
-            </div>
+                <div className="four wide column">
+                  <button type="submit" className="hide-mobile">
+                    Subscribe
+                  </button>
+                  <button className="hide-desktop" type="submit">
+                    <img
+                      src="images/submit-img.svg"
+                      className="hide-desktop"
+                      alt="submit img"
+                    />
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
           <div className="policies hide-mobile">
             <div className="ui three column grid">
